@@ -54,7 +54,7 @@ export function createPixelEditor(target) {
       style="height: 40px;"
       title="${toolName}"
     >
-      <img src=${`./assets/${toolName}.png`} width="25px" />
+      <img src=${`./assets/${toolName}.svg`} width="25px" />
     </button>
   `;
 
@@ -78,7 +78,7 @@ export function createPixelEditor(target) {
         style="height: 40px;"
         title="undo"
       >
-        <img src="./assets/undo.png" width="25px" />
+        <img src="./assets/undo.svg" width="25px" />
       </button>
     </div>
 
